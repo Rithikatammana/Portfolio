@@ -1,0 +1,188 @@
+body{
+    background-color: black;
+}.web-logo{
+    display:flex;
+    height:50px;
+    
+    padding-left: 10px;
+    
+}
+.profile{
+    height:300px;
+    padding-top: 100px;
+    padding-left:20px;
+    
+}
+.name{
+    color:white;
+    font-family: sans-serif;
+    text-align: right;
+}
+.about-me{
+    color:rgb(245, 245, 245);
+    text-align:left;
+    line-height:0.6cm;
+}
+
+.home{
+    display:flex;
+    flex-direction:row;
+    position:static;
+    height:100vh;
+}
+.home-left{
+    width:50vh;
+    padding-left:250px;
+    padding-top: 70px;
+    padding-right: 10px;
+    text-align: left;
+    
+    
+}
+.home-right{
+    width:50vh;
+    padding-left:50px;
+    padding-top:30px;
+    
+}
+.navbar{
+    background-color:rgb(194, 248, 194);
+    display: flex;
+    height:50px;
+    flex-direction: row;
+    justify-content: space-between; 
+    
+}
+
+.nav-right{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+.Element{
+    padding:5px;
+    border: 2px groove rgb(1, 78, 8);
+    margin:5px;
+    color: red;
+    background-color:rgb(188, 253, 188);
+    font-family: "Kumbh Sans", serif;
+    text-decoration: none;
+    font-weight: 500;
+}
+.Element:hover{
+    background-color:black;
+}
+.Skills{
+    
+    padding-left:2px;
+    text-align: left;
+}
+.Skills-heading{
+    color:white;
+    padding-left: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.skill-heading{
+    letter-spacing: 3px;
+    font-style: italic;
+    color:rgb(25, 253, 242);
+    font-family:inherit;
+}
+.skills-card{
+    
+    color:white;
+    border:2px solid rgb(1, 197, 181);
+    margin:5px;
+    text-align: center;
+    width:500px;
+}
+.skills-sub-container{
+    display: flex;
+    flex-direction: row;
+    margin:50px;
+    padding-right:50px;
+}
+.sp{
+    font-family: 'Times New Roman', Times, serif;
+    padding-left:5px;
+    letter-spacing:3px;
+}
+.Hobbies{
+    
+    padding-left:2px;
+    text-align: left;
+}
+.hobbies-heading{
+    color:white;
+    padding-left: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.hobbie-heading{
+    letter-spacing: 3px;
+    font-style: italic;
+    color:rgb(25, 253, 242);
+    font-family:inherit;
+}
+.hobbies-card{
+    
+    color:white;
+    border:2px solid rgb(1, 197, 181);
+    margin:5px;
+    text-align: center;
+    width:500px;
+}
+.hobbies-sub-container{
+    display: flex;
+    flex-direction: row;
+    margin:50px;
+    padding-right:50px;
+}
+.hp{
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 5px;
+    letter-spacing:3px;
+}
+.contact-heading{
+    color:white;
+    padding-left: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+.contact-info{
+    color:rgb(236, 252, 11);
+    text-align: center;
+   letter-spacing: 1.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:20px;
+    
+}
+.social-icons{
+    text-align: center;
+}
+.social-icons img{
+    padding:10px;
+}
+.insta-icon{
+    height:30px;
+    width:30px;   
+}
+.git-icon{
+    width:40px;
+    height:30px;
+    text-align: center;
+}
+.lin-icon{
+    width:30px;
+    height:30px;
+    text-align: center;
+}
+.up-img{
+    height:50px;
+    width:50px;
+    padding-left:800px;
+    float:right;
+    right:10px;
+    position:sticky
+}
